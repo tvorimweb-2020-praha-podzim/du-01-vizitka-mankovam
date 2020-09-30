@@ -1,18 +1,25 @@
 body{
+    background-color: #C57633;
+    margin: auto;
+}
+
+main{
     color: #800000;
     background-color: burlywood;
     font-family: 'Syne', sans-serif;
     line-height: 2;
     text-align: justify;
     margin: 0 auto;
-    max-width: 50em;
-        }
+    padding: 0 30px;
+    max-width: 50%;
+    border-bottom: 2px dashed darkgreen;
+}
 
 h1 {
     text-align: center;
     font-size: 50px;
     color: #FFEFD5;
-    margin-bottom: 30px;
+    margin: 0;
     text-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -25,5 +32,41 @@ a {
     border-radius: 50%;
     float: left;
     margin: 0 30px 30px 0;
+    border: 1px solid darkgreen;
 }
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul{
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+    }
+
+.menu a{
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 20px 30px;
+    border: 1px solid #803a00;
+    border-radius: 20px 0 20px 20px;
+    }
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active{
+    background-color: #803a00;
+}
+
+section{
+    margin: 0;
+    }
+
 
